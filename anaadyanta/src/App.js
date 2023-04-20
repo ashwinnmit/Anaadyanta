@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Events from "./Components/Events";
+import Contact from "./Components/Contact";
+import Sponsor from "./Components/Sponsor";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar />
+        <Home />
+        <About />
+        <Events />
+        <Contact />
+        <Sponsor />
+      </div>
+    </BrowserRouter>
   );
 }
 
