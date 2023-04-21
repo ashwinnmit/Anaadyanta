@@ -8,6 +8,7 @@ import Contact from "./Components/Contact";
 import Sponsor from "./Components/Sponsor";
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+import Proshow from "./Components/Proshow";
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
         <Home />
         <About />
         <Events />
-        <Contact />
         <Sponsor />
+        <Proshow />
+        <Contact />
       </div>
     </BrowserRouter>
   );

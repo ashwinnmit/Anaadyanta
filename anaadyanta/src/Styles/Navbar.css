@@ -1,0 +1,83 @@
+:root {
+  --yellow: #f7f719;
+  --darkBlue: #0e2d3d;
+}
+
+.ideathon-logo {
+  width: 40px;
+}
+
+.enigma-logo {
+  width: 80px;
+  margin-right: 0%;
+}
+
+#bg {
+  background-color: none;
+  /* background: transparent; */
+  margin-bottom: -150px;
+  padding: 40px;
+  transition: 0.5s;
+}
+#bg-color {
+  background-color: #0e2d3d;
+  opacity: 0.9;
+  transition: 0.7s;
+}
+.navbar-brand {
+  max-width: 50px;
+  max-block-size: 50px;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.nav-link {
+  font-size: large;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: var(--yellow);
+}
+
+@media screen and (min-width: 200px) and (max-width: 800px) {
+  #bg {
+    background: transparent;
+    margin-bottom: -160px;
+    padding: 20px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+  .enigma-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+  #bg {
+    background: transparent;
+    margin-bottom: -160px;
+    padding: 20px;
+  }
+
+  .enigma-logo {
+    display: none;
+  }
+}
+
+@media screen and (width: 280px) {
+  .nav-link {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
