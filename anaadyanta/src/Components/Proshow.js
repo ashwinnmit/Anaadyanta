@@ -3,7 +3,7 @@ import "../Styles/Proshow.css";
 
 export class Proshow extends Component {
   render() {
-    return <div>Proshow</div>;
+    return <div id="Proshow">Proshow</div>;
   }
 }
 

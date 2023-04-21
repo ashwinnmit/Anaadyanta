@@ -3,7 +3,11 @@ import "../Styles/About.css";
 
 export class About extends Component {
   render() {
-    return <div className="">About</div>;
+    return (
+      <div id="About" className="">
+        About
+      </div>
+    );
   }
 }
 

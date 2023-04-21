@@ -6,7 +6,7 @@ import "../Styles/Home.css";
 export class Home extends Component {
   render() {
     return (
-      <div className="vid" id="home">
+      <div className="vid" id="Home">
         <video className="vid" src={videoBg} autoPlay loop muted />
         <div className="content">
           <Svg />

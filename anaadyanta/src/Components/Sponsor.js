@@ -3,7 +3,7 @@ import "../Styles/Sponsor.css";
 
 export class Sponsor extends Component {
   render() {
-    return <div>Sponsor</div>;
+    return <div id="Sponsor">Sponsor</div>;
   }
 }
 

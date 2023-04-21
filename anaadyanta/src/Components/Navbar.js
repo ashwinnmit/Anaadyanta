@@ -71,7 +71,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
-      <a class="navbar-brand" href="https://www.ecellnmit.in">
+      <a class="navbar-brand" href="">
         <img src="" />
       </a>
     </nav>
