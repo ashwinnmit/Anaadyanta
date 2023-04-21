@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import videoBg from "../Assets/videoBg1.mp4";
+import Svg from "./Svg";
 import "../Styles/Home.css";
 
 export class Home extends Component {
@@ -7,7 +8,10 @@ export class Home extends Component {
     return (
       <div className="vid" id="home">
         <video className="vid" src={videoBg} autoPlay loop muted />
-        <div className="content"></div>
+        <div className="content">
+          <Svg />
+          <h4>An Annual National Level Techno-Cultural Event</h4>
+        </div>
       </div>
     );
   }
