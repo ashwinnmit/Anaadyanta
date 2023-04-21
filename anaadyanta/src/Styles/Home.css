@@ -1,10 +1,10 @@
 .vid {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
 }
 
-.content {
+/* .content {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -13,4 +13,4 @@
   justify-content: right;
   align-items: center;
   color: white;
-}
+} */

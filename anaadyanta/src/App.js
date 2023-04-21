@@ -16,11 +16,11 @@ function App() {
       <div className="App">
         <Navbar />
         <Home />
-        <About />
+        {/* <About />
         <Events />
         <Sponsor />
         <Proshow />
-        <Contact />
+        <Contact /> */}
       </div>
     </BrowserRouter>
   );
