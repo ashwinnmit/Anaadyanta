@@ -1,3 +1,4 @@
+/* @import url('https://fonts.cdnfonts.com/css/b-balik-awan'); */
 .vid {
   width: 99vw;
   height: 101vh;
@@ -13,5 +14,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
+}
+
+h4{
+  font-family: cursive;
 }
