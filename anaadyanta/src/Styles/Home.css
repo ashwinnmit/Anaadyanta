@@ -1,7 +1,7 @@
 /* @import url('https://fonts.cdnfonts.com/css/b-balik-awan'); */
 .vid {
-  width: 99vw;
-  height: 101vh;
+  width: 103vw;
+  height: 102vh;
   object-fit: cover;
 }
 
@@ -19,4 +19,11 @@
 
 h4{
   font-family: cursive;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .vid{
+      height:106vh;
+    }
 }
