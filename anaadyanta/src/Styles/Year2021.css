@@ -1,6 +1,14 @@
 .title-year-2021{
   margin-bottom: 5%;
 }
+
+.row-2021-main{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 4px;
+}
+
 .row-2021 {
     display: flex;
     flex-wrap: wrap;
@@ -11,7 +19,7 @@
   /* Create four equal columns that sits next to each other */
   .column-2021 {
     flex: 25%;
-    max-width: 30%;
+    max-width: 18%;
     padding: 0 4px;
   }
   
@@ -19,39 +27,51 @@
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
 
   .ani:hover{
     transform: scale(1.1);
     transition: 0.7s;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
 
   .column-main-2021 img{
-    max-width: 70%;
+    max-width:60%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (min-width: 200px) and (max-width: 800px) {
+    .row-2021-main{
+      margin-bottom: 5%;
+    }
+    
     .column-2021 {
-      flex: 100%;
+      flex: 50%;
       max-width: 75%;
+      padding: 0;
+    } 
+
+    .row-2021{
+      padding: 0;
     }
 
     .column-2021 img {
         margin-top: 8px;
-        vertical-align: middle;
         width: 80%;
+        -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
       }
-
+    
       .column-main-2021 img{
-        max-width:75%;
+        max-width:92%;
+        -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
       }
-  }
+  } 
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (min-width: 800px) and (max-width: 1300px) {
-
-    .column-main-2021 img{
-      max-width:70%;
-    }
-  }

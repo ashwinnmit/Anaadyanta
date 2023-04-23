@@ -1,14 +1,21 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import "../Styles/About.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-export class About extends Component {
-  render() {
+function About() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
     return (
       <div className="about-container">
         <div id="About" className="container">
-          <h2 className="about-heding">About</h2>
+          <h2 className="about-heding" data-aos="fade-up"
+     data-aos-duration="2000">About</h2>
 
-          <div>
+          <div data-aos="fade-up"
+     data-aos-duration="3000">
             <p className="about-content">
               Anaadyanta dates way back to 2004 when it first made a debut. This
               techno-cultural fest not only hosts students from various colleges
@@ -38,6 +45,5 @@ export class About extends Component {
       </div>
     );
   }
-}
 
 export default About;

@@ -12,19 +12,19 @@ function Year2022 (){
     return(
       <div className="year-2022">
       <h2 className="title-year-2022">2022</h2>
-      <div class="row-2022">
+      <div class="row-2022-main">
       <div class="column-main-2022">
-      <img src={photo1} className="ani" alt=""/>
+      <img src={photo1} className="ani" alt="" loading="lazy"/>
       </div>   
       <div class="row-2022">
       <div class="column-2022">
-      <img src={photo2} className="ani" alt=""/>
-      <img src={photo3} className="ani" alt=""/>
-      <img src={photo6} className="ani" alt=""/>
+      <img src={photo2} className="ani" alt="" loading="lazy"/>
+      <img src={photo3} className="ani" alt="" loading="lazy"/>
+      <img src={photo6} className="ani" alt="" loading="lazy"/>
       </div>
       <div class="column-2022">
-      <img src={photo4} className="ani" alt=""/>
-      <img src={photo5} className="ani" alt=""/>
+      <img src={photo4} className="ani" alt="" loading="lazy"/>
+      <img src={photo5} className="ani" alt="" loading="lazy"/>
       </div>
       </div>
       </div>
