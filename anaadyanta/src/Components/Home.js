@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import videoBg from "../Assets/videoBg1.mp4";
+import videoBg from "../Assets/videoBg2.mp4";
 import Logo from "./Logo";
 import Aylogo from "./Aylogo";
 import Desclogo from "./Desclogo";
@@ -10,10 +10,11 @@ export class Home extends Component {
   render() {
     return (
       <div className="vid" id="Home">
+        {/* <div className="overlay"></div> */}
         <video className="vid" src={videoBg} autoPlay loop muted />
         <div className="content">
           <Logo />
-          <Aylogo/>
+          <Aylogo />
           <Desclogo />
           <h4>An Annual National Level Techno-Cultural Event</h4>
           <Date />

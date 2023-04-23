@@ -1,0 +1,57 @@
+.title-year-2021{
+  margin-bottom: 5%;
+}
+.row-2021 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column-2021 {
+    flex: 25%;
+    max-width: 30%;
+    padding: 0 4px;
+  }
+  
+  .column-2021 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .ani:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+  }
+
+  .column-main-2021 img{
+    max-width: 70%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (min-width: 200px) and (max-width: 800px) {
+    .column-2021 {
+      flex: 100%;
+      max-width: 75%;
+    }
+
+    .column-2021 img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 80%;
+      }
+
+      .column-main-2021 img{
+        max-width:75%;
+      }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (min-width: 800px) and (max-width: 1300px) {
+
+    .column-main-2021 img{
+      max-width:70%;
+    }
+  }

@@ -1,5 +1,21 @@
-.container {
-  background-color: black;
-  max-width: 100vw;
-  max-height: 100vh;
+.ratio {
+  width: 60%;
+}
+.about-display {
+  display: flex;
+}
+.about-container {
+  padding: 25px;
+}
+.about-heding {
+  text-align: left;
+  margin-bottom: 50px;
+}
+.about-content {
+  padding: 50px;
+}
+@media (max-width: 480px) {
+  .about-display {
+    display: block;
+  }
 }

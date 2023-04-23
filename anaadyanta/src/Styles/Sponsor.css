@@ -1,0 +1,42 @@
+.sponsor-pic {
+  width: 50%;
+  height: auto;
+}
+
+.spon-container {
+  background-color: black;
+  padding: 8vh;
+}
+.sponsor-div {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.reveal {
+  color: white;
+}
+
+.sponsor-title {
+  text-align: left;
+  margin-left: 5vw;
+  font-size: 1.5rem;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .sponsor-pic {
+    width: 140%;
+  }
+  .sponsor-title {
+    margin-left: -5vw;
+    margin-bottom: 5vh;
+    font-size: 1.2rem;
+  }
+  .reveal {
+    font-size: 1rem;
+  }
+}
