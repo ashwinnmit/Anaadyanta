@@ -6,14 +6,18 @@
 }
 .about-container {
   padding: 25px;
+  background-color: black;
 }
 .about-heding {
   text-align: left;
   margin-bottom: 50px;
+  color: white;
 }
 .about-content {
   padding: 50px;
+  color: white;
 }
+
 @media (max-width: 480px) {
   .about-display {
     display: block;

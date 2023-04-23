@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import videoBg from "../Assets/videoBg2.mp4";
+import videoBg from "../Assets/videobg2(15sec).mp4";
 import Logo from "./Logo";
 import Aylogo from "./Aylogo";
 import Desclogo from "./Desclogo";

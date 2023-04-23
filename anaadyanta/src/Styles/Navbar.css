@@ -11,7 +11,7 @@
   transition: 0.5s;
 }
 #bg-color {
-  background-color: #0e2d3d;
+  background-color: #d42d05;
   opacity: 0.9;
   transition: 0.7s;
 }
@@ -87,6 +87,8 @@
   }
   .menu-btn i {
     display: block;
+    margin-left: 20vw;
+    margin-top: 1vh;
   }
 
   #click:checked ~ .menu-btn i::before {

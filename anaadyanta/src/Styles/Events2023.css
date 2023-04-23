@@ -17,7 +17,7 @@ body {
   place-items: center;
 }
 .past-events-container {
-  background-color: black;
+  background-color: white;
   padding: 20px;
 }
 .page-content {
@@ -35,8 +35,15 @@ body {
 }
 @media (min-width: 800px) {
   .page-content {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+.title-event {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 10%;
+  color: black;
 }
 .card {
   position: relative;
@@ -44,7 +51,7 @@ body {
   align-items: flex-end;
   overflow: hidden;
   padding: 1rem;
-  width: 100%;
+  width: 70%;
   text-align: center;
   color: whitesmoke;
   background-color: black;

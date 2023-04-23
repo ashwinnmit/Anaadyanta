@@ -1,23 +1,37 @@
-import React , {useEffect}from "react";
+import React from "react";
 import "../Styles/Sponsor.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import pdf from "../Assets/Anaadyanta2023_SB-1.pdf";
 // import sponsor from "../Assets/SponsorPic-removebg-preview.png";
 import sponsor from "../Assets/Collab-PhotoRoom.png-PhotoRoom.png";
 
 // import sponsor from "../Assets/Collab.png";
 
 function Sponsor() {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   return (
     <div className="spon-container" id="Sponsor">
       <h1 className="sponsor-title">Sponsors</h1>
       <div className="sponsor-div">
-        <img src={sponsor} alt="Sponsor Placeholder" className="sponsor-pic" data-aos="zoom-out-right"/>
-        <h4 className="reveal" data-aos="zoom-out-left">Revealing Soon!!!</h4>
+        <div>
+          <img
+            src={sponsor}
+            alt="Sponsor Placeholder"
+            className="sponsor-pic"
+          />
+          <h4 className="reveal">
+            For Sponsorships and Partnerships, please refer:
+          </h4>
+        </div>
+        <div>
+          <a
+            href={pdf}
+            download="Anaadyanta2023-sponsor-brochure"
+            target="_blank"
+          >
+            <button type="button" class="btn btn-outline-light">
+              Download Brochure
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
