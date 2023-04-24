@@ -6,6 +6,7 @@
 .spon-container {
   background-color: black;
   padding: 8vh;
+  clip-path: polygon(0 0, 100% 0%, 100% 110%, 0% 100%);
 }
 .sponsor-div {
   width: 70%;

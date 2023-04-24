@@ -9,13 +9,14 @@ export class Events2023 extends Component {
         <main class="page-content">
           <div class="card">
             <div class="content-event">
-              <h2 class="title">Cultural Events</h2>
+              <h2 class="title sep-title">Cultural & sports Events</h2>
               <p class="copy">
                 Cultural events are where we get to party and celebrate our
                 diversity, traditions, arts, and customs! Let's come together,
                 have fun, and learn about different cultures!
               </p>
-              <button class="btn">View Events</button>
+              <a href="https://drive.google.com/file/d/1AcGo71FqiyLtGZ2ZTuWt7MvyaH0keMxU/view?usp=sharinghttps://drive.google.com/file/d/1AcGo71FqiyLtGZ2ZTuWt7MvyaH0keMxU/view?usp=sharinghttps://drive.google.com/file/d/1AcGo71FqiyLtGZ2ZTuWt7MvyaH0keMxU/view?usp=sharinghttps://drive.google.com/file/d/1AcGo71FqiyLtGZ2ZTuWt7MvyaH0keMxU/view?usp=sharing" target="_blank">
+              <button class="btn">View Events</button></a>
             </div>
           </div>
           <div class="card">
@@ -26,7 +27,9 @@ export class Events2023 extends Component {
                 share ideas, and connect with fellow techies! Let's learn,
                 network, and innovate together
               </p>
+              <a href="https://drive.google.com/file/d/1HixlPVZymMyUFgrU2I30QVLNEcfRaUyY/view?usp=sharing" target="_blank">
               <button class="btn">View Events</button>
+              </a>
             </div>
           </div>
           {/* <div class="card"> 

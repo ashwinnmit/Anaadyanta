@@ -11,6 +11,7 @@ import aylogo from "../Assets/FooterLogo-Anaadyanta.svg";
 import "../Styles/Contact.css";
 function Contact() {
   return (
+    <div class="custom-shape-divider-top-1682310317">
     <div class="footer-basic" id="Contact">
       <footer>
         <h1 class="contact">Contact Us</h1>
@@ -40,6 +41,7 @@ function Contact() {
         </p>
         <p class="end">Made with ❤️ by NMIT</p>
       </footer>
+    </div>
     </div>
   );
 }

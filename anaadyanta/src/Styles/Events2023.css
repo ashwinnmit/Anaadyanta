@@ -131,6 +131,10 @@ body {
 .content-event > * + * {
   margin-top: 1rem;
 }
+.sep-title{
+  margin-bottom: -1.5rem;
+
+}
 .title {
   font-size: 1.3rem;
   font-weight: bold;
