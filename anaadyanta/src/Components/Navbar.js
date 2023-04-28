@@ -40,10 +40,10 @@ function Navbar() {
               <a href="#Events">Events</a>
             </li>
             <li class="li">
-              <a href="#Sponsor">Sponsors</a>
+              <a href="#Proshow">Proshow</a>
             </li>
             <li class="li">
-              <a href="#Proshow">Proshow</a>
+              <a href="#Sponsor">Sponsors</a>
             </li>
             <li class="li">
               <a href="#Contact">Contact us</a>
