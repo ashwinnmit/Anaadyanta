@@ -5,7 +5,7 @@
   --font-sans: "Rubik", sans-serif;
   --font-serif: "Cardo", serif;
 }
-* {
+/* * {
   box-sizing: border-box;
 }
 html,
@@ -15,7 +15,7 @@ body {
 body {
   display: grid;
   place-items: center;
-}
+} */
 .past-events-container {
   background-color: white;
   padding: 20px;
@@ -26,6 +26,7 @@ body {
   padding: 1rem;
   max-width: 1024px;
   margin: 0 auto;
+  place-items: center;
   font-family: var(--font-sans);
 }
 @media (min-width: 600px) {
@@ -33,6 +34,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media (min-width: 800px) {
   .page-content {
     grid-template-columns: repeat(2, 1fr);
@@ -132,7 +134,7 @@ body {
   margin-top: 1rem;
 }
 .sep-title{
-  margin-bottom: -1.5rem;
+  margin-bottom: -1rem;
 
 }
 .title {
@@ -207,5 +209,17 @@ body {
   .card:focus-within .content-event,
   .card:focus-within .content-event > *:not(.title) {
     transition-duration: 0s;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .past-events-container{
+    width : 100vw;
+    padding:0px;
+  }
+  .card{
+    width : 90vw;
+    height:50vh;
   }
 }

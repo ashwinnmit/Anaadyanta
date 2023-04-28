@@ -27,7 +27,7 @@ function Sponsor() {
             download="Anaadyanta2023-sponsor-brochure"
             target="_blank"
           >
-            <button type="button" class="btn btn-outline-light">
+            <button type="button" class="btn btn-outline-dark">
               Download Brochure
             </button>
           </a>

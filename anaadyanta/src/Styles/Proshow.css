@@ -1,5 +1,5 @@
 .content-p {
-  max-width: 1000px;
+  max-width: 885px;
   margin: 0 auto;
   margin: 5vh auto;
   margin-bottom: -10vh;
@@ -10,7 +10,7 @@
 }
 
 .proshow-image {
-  max-width: 50vw;
+  max-width: 55vw;
   height: auto;
   display: block;
 }
@@ -58,5 +58,11 @@
   }
   .title-p {
     font-size: 1.2rem;
+  }
+  .proshow-image {
+    max-width: 100vw;
+  }
+  .content-p {
+    margin-bottom: 0vh;
   }
 }

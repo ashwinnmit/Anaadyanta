@@ -27,7 +27,7 @@ function Events() {
 
   return (
     <div id="Events" className="Events-parent">
-      <div className="title-event1">previous year Events</div>
+      <div className="title-event1">Previous year Events</div>
       <Box
         sx={{
           display: "flex",
@@ -44,17 +44,18 @@ function Events() {
           variant="contained"
           size="small"
           aria-label="small button group"
+          color="error"
         >
-          <Button key="one" size="large" onClick={() => click_2019()}>
+          <Button key="one" size="large" onClick={() => click_2019()} color="error">
             2019
           </Button>
-          <Button key="two" size="large" onClick={() => click_2020()}>
+          <Button key="two" size="large" onClick={() => click_2020()} color="error">
             2020
           </Button>
-          <Button key="three" size="large" onClick={() => click_2021()}>
+          <Button key="three" size="large" onClick={() => click_2021()} color="error">
             2021
           </Button>
-          <Button key="three" size="large" onClick={() => click_2022()}>
+          <Button key="three" size="large" onClick={() => click_2022()} color="error">
             2022
           </Button>
         </ButtonGroup>

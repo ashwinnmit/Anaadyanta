@@ -5,8 +5,8 @@ import proshow from "../Assets/PrevProShow.png";
 function Proshow() {
   return (
     <>
-      <h1 className="contact">Proshow</h1>
-      <div class="content-p">
+      <h1 className="contact" id="Proshow">Proshow</h1>
+      <div class="content-p text-center">
         <div class="article-p">
           <div class="image-p">
             <img src={proshow} className="proshow-image" />
