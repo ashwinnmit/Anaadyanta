@@ -46,7 +46,7 @@ function Navbar() {
               <a href="#Sponsor">Sponsors</a>
             </li>
             <li class="li">
-              <a href="#Contact">Contact us</a>
+              <a href="#Contact">Contact Us</a>
             </li>
           </ul>
         </div>

@@ -15,7 +15,7 @@ export class Events2023 extends Component {
                 diversity, traditions, arts, and customs! Let's come together,
                 have fun, and learn about different cultures!
               </p>
-              <a href="https://drive.google.com/file/d/1FefqzDCrOw4JttQGaxsLYd9FdtTChGth/view" target="_blank">
+              <a href="https://drive.google.com/file/d/10BYf6VFepWpkf9oBon3e9Mi_giuOgpLn/view?usp=sharing" target="_blank">
               <button class="btn btn-outline-dark">View Events</button></a>
             </div>
           </div>
@@ -25,7 +25,7 @@ export class Events2023 extends Component {
               <p class="copy">
                 Tech events are where we geek out, explore new innovations,
                 share ideas, and connect with fellow techies! Let's learn,
-                network, and innovate together
+                network, and innovate together!
               </p>
               <a href="https://drive.google.com/file/d/1HixlPVZymMyUFgrU2I30QVLNEcfRaUyY/view?usp=sharing" target="_blank">
               <button class="btn btn-outline-dark">View Events</button>

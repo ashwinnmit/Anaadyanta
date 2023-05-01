@@ -25,7 +25,7 @@ export class About extends Component {
               express, and to connect with others through our culture. So come
               and join us on this journey of discovery, as we celebrate the
               beauty of our cultural diversity. Let us showcase the richness
-              that is India
+              that is India.
               <br />
               <br />
               With "Cradle of Culture", we shall celebrate the various, dynamic,
