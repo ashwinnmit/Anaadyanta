@@ -9,7 +9,7 @@ export class Events2023 extends Component {
         <main class="page-content">
           <div className="card">
             <div class="content-event">
-              <h2 class="title sep-title">Cultural & sports Events</h2>
+              <h2 class="title sep-title">Cultural & Sports Events</h2>
               <p className="copy">
                 Cultural events are where we get to party and celebrate our
                 diversity, traditions, arts, and customs! Let's come together,
